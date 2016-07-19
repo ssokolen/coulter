@@ -1,0 +1,18 @@
+Package: coulter
+Title: Scripts for Importing and Processing Coulter Data
+Version: 0.1
+Authors@R: person("Stanislav", "Sokolenko", 
+		  email = "stanislav@sokolenko.net", role = c("aut", "cre"))
+Description: A collection of scripts for working with Coulter data. Currently,
+    all the scripts are focused around the Z2 multisizer, but core
+    functionality should be expandable to other instruments as well.
+Depends:
+    R (>= 3.3.0),
+    dplyr (>= 0.4.3),
+    lubridate (>= 1.5.6),
+    reshape2 (>= 1.4.1),
+    stringr (>= 1.0.0)
+License: Apache (>= 2.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
